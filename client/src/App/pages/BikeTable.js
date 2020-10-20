@@ -51,7 +51,7 @@ class BikeTable extends Component {
 					</div>
 				) : (
 					<div>
-						<h2>Error: no bikes were found</h2>
+						<h2>Error: {error}</h2>
 					</div>
 				)}
 			</div>
