@@ -11,7 +11,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3"
   },
-  "proxy": "http://localhost:9000",
+  "proxy": "https://turbike-bk.herokuapp.com:9000",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

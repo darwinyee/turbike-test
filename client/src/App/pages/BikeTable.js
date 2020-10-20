@@ -22,7 +22,7 @@ class BikeTable extends Component {
 
 	// Get the bikes from backend
 	getBikes = () => {
-		fetch('http://localhost:9000/api/getBikes')
+		fetch('/api/getBikes')
 		.then(res => res.json())
 		.then((res) => {
 			this.setState({ 
